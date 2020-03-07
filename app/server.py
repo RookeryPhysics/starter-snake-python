@@ -48,13 +48,7 @@ def move():
 
     # Choose a random direction to move in
     directions = ["up", "down", "left", "right"]
-    move = "down"
-    if(data["turn"] < 3){
-        move = "up"
-    }
-    else{
-        move = random.choice(directions)
-    }
+    move = "left"
 
 
     #move = random.choice(directions)
